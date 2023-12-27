@@ -28,7 +28,7 @@
 
     <!-- Main Content Area -->
     <div class="main-content">
-        <h6>this is content</h6>
+        <h6>this is content.</h6>
     </div>
 
     <!-- Add your scripts or other bottom-of-body content here -->
