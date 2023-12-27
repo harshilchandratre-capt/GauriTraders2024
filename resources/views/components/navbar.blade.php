@@ -1,4 +1,4 @@
-<!-- <div class="navbar bg-gradient-to-r from-slate-900 to-slate-700">
+<div class="navbar ">
     <div class="nav-left ">
         <label for="brand">{{ $brand }}</label>
     </div>
@@ -6,4 +6,5 @@
         <label for="fyear">{{ $fYear }}</label>
         <div class="close-button">{{ $closeButton }}</div>
     </div>
-</div> -->
+</div>
+
