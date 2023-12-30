@@ -1,8 +1,8 @@
-
-.navbar {
+.main-navbar {
     width: 100%;
     height: 8vh;
-    padding: 0 1.95vw;
+    max-height: 4.813rem;
+    padding: 1.95vw 1.95vw;
     background: linear-gradient(94deg, #242523 0%, #242523 46%, black 46%, #242523 100%);
     box-shadow: 0px 4px 4px rgba(171.06, 171.06, 171.06, 0.87);
     color: white;
@@ -40,14 +40,21 @@
 }
 
 .nav-right label,
-.close-button {
+.exit-button {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     /* font-size: 1vw;
     line-height: 1vw; */
 }
 
-.close-button {
+.exit-button {
+    width: 8rem;
+    /* Keep as is, since rem is relative to the root font size */
+    height: 2.5rem;
+    /* Keep as is, since rem is relative to the root font size */
+    margin: 0;
+    /* Convert 0.875rem to vw (0.875 * 16 / base-font-size) */
+
+    background-color: #FF0000;
     cursor: pointer;
 }
-
