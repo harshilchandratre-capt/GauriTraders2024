@@ -1,0 +1,1 @@
+<img class="brand-watermark" src="../media/capt-technology-watermark.png" alt="capt-technology-watermark" srcset="" />

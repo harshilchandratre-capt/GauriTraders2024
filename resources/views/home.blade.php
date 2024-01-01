@@ -13,6 +13,8 @@
     <!-- ✨ component css here 👇 -->
     @vite('resources/css/components/main-navbar.css')
     @vite('resources/css/components/main-screen-card.css')
+    @vite('resources/css/components/brand-watermark.css')
+    @vite('resources/css/components/hold-button.css')
     @vite('resources/css/components/footer.css')
 
 
@@ -44,6 +46,13 @@
             <x-main-screen-card :title="'Stock Entry'"/>
             <x-main-screen-card :title="'Product Entry'"/>
         </div>
+    </div>
+
+    <!-- Control Button Area -->
+
+    <div class="control-button-area">
+        <x-brand-watermark />
+        <x-hold-button />
     </div>
 
     <!-- Footer / Credit -->

@@ -1,0 +1,36 @@
+
+.hold-button {
+    position: relative;
+    width: 147px;
+    height: 50px;
+    background-color: #FFE500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    gap: 15px;
+
+    font-size: 14.73px;
+    color: white;
+
+    cursor: pointer;
+
+    box-shadow: 5px 5px 20px 0px #00000040 inset;
+    transition: background-color 0.3s ease;
+
+}
+
+
+.notification-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e74c3c;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
