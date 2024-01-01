@@ -38,8 +38,9 @@ body {
 }
 
 .main {
-    min-height: 100vh;
+    min-height: 92vh;
     margin: 0;
+    padding: 0 2.5rem;
     /* padding: .6vw; */
     box-sizing: border-box;
     
@@ -47,5 +48,17 @@ body {
 
     /* border: 2px dotted red; */
 
+}
+
+.ms-container{
+    /* margin: 0;
+    padding: 0; */
+    /* box-sizing: border-box; */
+    /* border: 2px solid red; */
+}
+
+.control-button-area{
+    box-sizing: border-box;
+    /* border: 2px solid red; */
 }
 

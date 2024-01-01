@@ -48,9 +48,9 @@
 }
 
 .exit-button {
-    width: 8rem;
+    width: 8vw;
     /* Keep as is, since rem is relative to the root font size */
-    height: 2.5rem;
+    max-height: 2.5vw;
     /* Keep as is, since rem is relative to the root font size */
     margin: 0;
     /* Convert 0.875rem to vw (0.875 * 16 / base-font-size) */

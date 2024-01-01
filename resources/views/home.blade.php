@@ -34,31 +34,39 @@
 
     <!-- Main Content Area -->
     <div class="main ">
-        <div class="ms-container m-10 flex justify-start items-center flex-wrap gap-10">
-            
-            <x-main-screen-card :title="'POS'"/>
-            <x-main-screen-card :title="'POS Transaction Inquiry'"/>
-            <x-main-screen-card :title="'Sale Return'"/>
-            <x-main-screen-card :title="'Data Backup'"/>
-            <x-main-screen-card :title="'Report'"/>
-            <x-main-screen-card :title="'Open Cash Drawer'"/>
-            <x-main-screen-card :title="'Daily Sales'"/>
-            <x-main-screen-card :title="'Stock Entry'"/>
-            <x-main-screen-card :title="'Product Entry'"/>
+        <div class="ms-container my-10 flex justify-start items-center flex-wrap gap-10">
+
+            <x-main-screen-card :title="'POS'" />
+            <x-main-screen-card :title="'POS Transaction Inquiry'" />
+            <x-main-screen-card :title="'Sale Return'" />
+            <x-main-screen-card :title="'Data Backup'" />
+            <x-main-screen-card :title="'Report'" />
+            <x-main-screen-card :title="'Open Cash Drawer'" />
+            <x-main-screen-card :title="'Daily Sales'" />
+            <x-main-screen-card :title="'Stock Entry'" />
+            <x-main-screen-card :title="'Product Entry'" />
         </div>
-    </div>
 
-    <!-- Control Button Area -->
+        <!-- Control Button Area -->
+        <div class="control-button-area mt-10 flex items-center justify-between">
+            <x-brand-watermark />
+            <x-hold-button />
+        </div>
 
-    <div class="control-button-area">
-        <x-brand-watermark />
-        <x-hold-button />
+
     </div>
 
     <!-- Footer / Credit -->
-    <footer>
-        <x-footer />
+    <footer class="flex items-end justify-end p-0 mx-10 my-5">
+        <!-- <x-footer /> -->
+        <div class="text-right text-gray-500 text-xs font-josefin-sans font-semibold leading-4 break-words">Created By:</div>
+        <div class="text-right text-gray-400 text-xs font-josefin-sans font-semibold leading-4 break-words">CAPT Technology</div>
+
     </footer>
+
+
+
+
 
 
 

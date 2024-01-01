@@ -1,4 +1,4 @@
-<div class="navbar ">
+<div class="navbar">
     <div class="nav-left ">
         <label for="brand">{{ $brand }}</label>
     </div>
