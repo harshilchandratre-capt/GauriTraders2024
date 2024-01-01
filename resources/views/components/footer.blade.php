@@ -1,6 +1,6 @@
 
 <div class="credit-line">
-    <span>Software By: CAPT Technology Pvt. Ltd.</span>
+    <span>Developed By: CAPT Technology</span>
     <span>Bharuch, GJ</span>
-    <span>Phone Number: +9185456xxxxx</span>
+    <span>Phone Number: +91 9054203983</span>
 </div>

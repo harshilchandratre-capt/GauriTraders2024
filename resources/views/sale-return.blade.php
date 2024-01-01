@@ -21,7 +21,7 @@
         <!-- navigation bar -->
         <header>
             <nav>
-                <x-navbar :brand="'Sale Return'" :fYear="'FY:2023'" :closeButton="'X'" />
+                <x-navbar :brand="'Sale Return'" :fYear="'FY:2024'" :closeButton="'X'" />
             </nav>
         </header>
 
@@ -237,7 +237,6 @@
                             <div class="itemTable">
                                 <div class="t-head">
                                     <div class="head-left">
-                                        <span></span>
                                         <span>Sr. No.</span>
                                         <span>Particular</span>
                                     </div>
@@ -246,6 +245,51 @@
                                     </div>
                                 </div>
                                 <hr>
+                                <div class="t-item">
+                                    <div class="item-left">
+                                        <span>Sr. No.</span>
+                                        <span>Particular</span>
+                                    </div>
+                                    <div class="item-right">
+                                        <span>Price</span>
+                                    </div>
+                                </div>
+                                <div class="t-item">
+                                    <div class="item-left">
+                                        <span>Sr. No.</span>
+                                        <span>Particular</span>
+                                    </div>
+                                    <div class="item-right">
+                                        <span>Price</span>
+                                    </div>
+                                </div>
+                                <div class="t-item">
+                                    <div class="item-left">
+                                        <span>Sr. No.</span>
+                                        <span>Particular</span>
+                                    </div>
+                                    <div class="item-right">
+                                        <span>Price</span>
+                                    </div>
+                                </div>
+                                <div class="t-item">
+                                    <div class="item-left">
+                                        <span>Sr. No.</span>
+                                        <span>Particular</span>
+                                    </div>
+                                    <div class="item-right">
+                                        <span>Price</span>
+                                    </div>
+                                </div>
+                                <div class="t-item">
+                                    <div class="item-left">
+                                        <span>Sr. No.</span>
+                                        <span>Particular</span>
+                                    </div>
+                                    <div class="item-right">
+                                        <span>Price</span>
+                                    </div>
+                                </div>
 
                             </div>
                         </fieldset>

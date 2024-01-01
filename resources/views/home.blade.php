@@ -28,7 +28,7 @@
     <!-- Navigation Bar -->
     <header>
         <nav>
-            <x-main-navbar :brand="'Logo Here'" :fYear="'FY:2023'" :closeButton="'Exit'" />
+            <x-main-navbar :brand="'Logo Here'" :fYear="'FY:2024'" :closeButton="'Exit'" />
         </nav>
     </header>
 
