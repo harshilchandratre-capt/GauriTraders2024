@@ -5,6 +5,7 @@
     <div class="nav-right">
         <label for="fyear">{{ $fYear }}</label>
         <div class="close-button">{{ $closeButton }}</div>
+
     </div>
 </div>
 

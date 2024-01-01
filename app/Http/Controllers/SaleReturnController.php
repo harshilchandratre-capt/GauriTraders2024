@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class SalesReturnController extends Controller
+class SaleReturnController extends Controller
 {
     //
-    public function salesReturn()
+    public function saleReturn()
     {
-        return view('sales-return');
+        return view('sale-return');
     }
 }

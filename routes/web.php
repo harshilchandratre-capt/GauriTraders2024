@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\SalesReturnController;
+use App\Http\Controllers\SaleReturnController;
 
 
 /*
@@ -24,6 +24,6 @@ use App\Http\Controllers\SalesReturnController;
 
 
 Route::get('/', [HomeController::class, 'home'])->name('home');
-Route::get('/sales-return', [SalesReturnController::class, 'salesReturn'])->name('sales-return');
+Route::get('/sale-return', [SaleReturnController::class, 'saleReturn'])->name('sale-return');
 
 
