@@ -1,20 +1,15 @@
 <div class="control-buttons">
-    <div class="help-left">
-        <div class="Group198" style="width: 331px; height: 31px; position: relative">
-            <div class="F5FindItem" style="left: 113px; top: 16px; position: absolute; color: black; font-size: 10px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">
-                F5: Find Item</div>
-            <div class="F1SellItemDetails" style="left: 113px; top: 0px; position: absolute; color: black; font-size: 10px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">
-                F1: Sell item Details</div>
-            <div class="F9PaymentDetails" style="left: 0px; top: 16px; position: absolute; color: black; font-size: 10px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">
-                F9: Payment Details</div>
-            <div class="F3CustomerInfo" style="left: 229px; top: 0px; position: absolute; color: black; font-size: 10px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">
-                F3: Customer Info</div>
-            <div class="F9QtyChangeRate" style="left: 229px; top: 21px; position: absolute; color: black; font-size: 10px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">
-                F9: Qty Change/Rate</div>
-            <div class="CtrlF1Help" style="left: 0px; top: 0px; position: absolute; color: black; font-size: 10px; font-family: Josefin Sans; font-weight: 700; word-wrap: break-word">
-                Ctrl + F1: Help</div>
-        </div>
+<div class="help-left">
+    <div class="Group198">
+        <div class="F5FindItem">F5: Find Item</div>
+        <div class="F1SellItemDetails">F1: Sell item Details</div>
+        <div class="F9PaymentDetails">F9: Payment Details</div>
+        <div class="F3CustomerInfo">F3: Customer Info</div>
+        <div class="F9QtyChangeRate">F9: Qty Change/Rate</div>
+        <div class="CtrlF1Help">Ctrl + F1: Help</div>
     </div>
+</div>
+
 
     <div class="buttons-right">
         <button class="hold-button">

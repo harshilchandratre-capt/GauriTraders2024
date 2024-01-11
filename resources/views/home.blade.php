@@ -57,7 +57,7 @@
     </div>
 
     <!-- Footer / Credit -->
-    <footer class="flex items-end justify-end p-0 mx-10 my-5">
+    <footer class="flex items-end justify-end p-0 mx-10 my-5 fixed top-0 left-0 right-0 bottom-0" >
         <!-- <x-footer /> -->
         <div class="text-right text-gray-500 text-xs font-josefin-sans font-semibold leading-4 break-words">Created By:&nbsp;</div>
         <div class="text-right text-gray-400 text-xs font-josefin-sans font-semibold leading-4 break-words">CAPT Technology</div>

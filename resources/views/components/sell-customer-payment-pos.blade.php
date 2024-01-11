@@ -1,3 +1,4 @@
+
 <div class="sell-customer-payment">
 
       <!-- tab container -->
@@ -306,8 +307,7 @@
 
         <!-- tab 3 -->
         <div id="tab3" class="tab-content">
-          <h2>Content for Tab 3</h2>
-          <p>This is the content for Tab 3.</p>
+          <x-payment-details-pos/>
         </div>
       </div>
 

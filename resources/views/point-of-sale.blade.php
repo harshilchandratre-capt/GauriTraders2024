@@ -21,6 +21,7 @@
     @vite('resources/css/components/item-table-pos.css')
     @vite('resources/css/components/amount-pos.css')
     @vite('resources/css/components/control-buttons-pos.css')
+    @vite('resources/css/components/payment-details-pos.css')
 
 
     <!--✨ global css here 👇  -->
@@ -28,7 +29,7 @@
 
 </head>
 
-<body class="bg-gray-100 h-screen font-sans">
+<body class="bg-gray-100 h-screen font-sans ">
 
     <!-- Navigation Bar -->
     <header>
@@ -38,7 +39,7 @@
     </header>
 
     <!-- Main Content Area -->
-    <div class="main ">
+    <div class="main" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
         <!-- User Detail Panel Area -->
         <x-user-detail-panel-pos />
 

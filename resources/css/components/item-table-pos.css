@@ -1,12 +1,13 @@
 .item-table {
-    height: 307px;
+    /* height: 307px; */
     height: 38.375vh;
     flex: 1;
     /* height: calc(100% - 84.8px); */
     /* padding: 20px; */
     background-color: white;
     border-radius: 2px;
-    padding: 10px;
+    /* padding: 10px; */
+    padding: .8333vw;
     box-sizing: border-box;
     overflow: auto;
 
@@ -17,17 +18,23 @@
     padding: 0;
     margin: 0;
     border: 2px solid red;
-    width: 4px;
-    height: 4px;
+    /* width: 4px; */
+    width: .333vw;
+    /* height: 4px; */
+    height: .666vh;
 }
 
 .delete {
 
     position: absolute;
-    width: 9.34px;
-    height: 9.34px;
-    left: 72.1px;
-    top: 302.78px;
+    /* width: 9.34px; */
+    width: .778vw;
+    /* height: 9.34px; */
+    height: 1.556vh;
+    /* left: 72.1px; */
+    left: 6.008vw;
+    /* top: 302.78px; */
+    top: 50.46vh;
 
     background: #FF0000;
     transform: matrix(0.55, -0.83, 0.55, 0.83, 0, 0);
@@ -40,6 +47,7 @@
     justify-content: space-between;
     /* border: 2px solid crimson; */
     padding: 0 10px 0 0;
+    padding: 0 .833vw 0 0;
 
 }
 
@@ -47,8 +55,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    font-size: 10px;
+    /* gap: 10px; */
+    gap: .833vw;
+    /* font-size: 10px; */
+    font-size: .833vw;
     line-height: 10px;
     font-weight: 400;
 }
@@ -57,19 +67,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    font-size: 10px;
+    /* gap: 10px; */
+    gap: .833vw;
+    /* font-size: 10px; */
+    font-size: .833vw;
     line-height: 10px;
     font-weight: 400;
 }
 
 .t-item {
     margin: 4px;
+    margin: .333vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* border: 2px solid crimson; */
-    padding: 5px 10px 5px 0;
+    /* padding: 5px 10px 5px 0; */
+    padding: .833vh .833vw .833vh 0;
 
     &:hover {
         background-color: #eaeaea;
@@ -83,8 +97,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    font-size: 10px;
+    /* gap: 10px; */
+    gap: .833vw;
+    /* font-size: 10px; */
+    font-size: .833vw;
     line-height: 10px;
     font-weight: 400;
 
@@ -96,8 +112,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    font-size: 10px;
+    /* gap: 10px; */
+    gap: .833vw;
+    /* font-size: 10px; */
+    font-size: .833vw;
     line-height: 10px;
     font-weight: 400;
 }

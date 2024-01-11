@@ -17,7 +17,7 @@
     <div class="amount-right">
         <div class="total-amount">
             <span>Total-Amount</span>
-            <input type="number" name="total-amount" id="top-amount" value="5725" disabled />
+            <input type="number" name="total-amount" id="total-amount" value="5725" disabled />
         </div>
     </div>
 </div>

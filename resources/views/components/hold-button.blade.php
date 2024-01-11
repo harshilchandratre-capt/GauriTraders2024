@@ -1,4 +1,4 @@
-<button class="hold-button absolute bottom-5 right-20">
+<button class="hold-button absolute bottom-16 right-10">
     <span>Hold</span>
     <svg width="22" height="23" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
