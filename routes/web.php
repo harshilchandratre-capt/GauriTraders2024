@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SaleReturnController;
+use App\Http\Controllers\PointOfSaleController;
 
 
 /*
@@ -25,5 +26,6 @@ use App\Http\Controllers\SaleReturnController;
 
 Route::get('/', [HomeController::class, 'home'])->name('home');
 Route::get('/sale-return', [SaleReturnController::class, 'saleReturn'])->name('sale-return');
+Route::get('/point-of-sale', [PointOfSaleController::class, 'pointofSale'])->name('point-of-sale');
 
 
