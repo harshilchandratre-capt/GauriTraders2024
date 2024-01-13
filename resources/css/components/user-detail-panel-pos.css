@@ -4,9 +4,10 @@
     align-items: center;
     justify-content: space-between;
     /* gap: 30px; */
-    gap: 5vh;
+    gap: 1vw;
     /* border: 2px solid crimson; */
     flex-wrap: wrap;
+    margin: 12vh 0 0 0;
   
     /* margin: 2.34vh 0; */
     /* margin-top: 10vh; */

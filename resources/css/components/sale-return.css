@@ -1,5 +1,5 @@
 .content {
-    padding: 0 1.95vw;
+    /* padding: 0 1.95vw; */
     width: 100%;
     height: 100%;
 
@@ -9,7 +9,7 @@
     flex-direction: column;
     /* align-items: center;
     justify-content: space-evenly; */
-    gap: 30px;
+    gap: 3rem;
     /* 
     display: flex;
     flex-direction: column;
@@ -43,8 +43,8 @@
     height: 100%;
     /* border: 2px solid black; */
     background-color: #c4c4c4;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 2rem;
+    border-radius: .5rem;
 }
 
 .tbox {

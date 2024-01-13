@@ -20,15 +20,13 @@
 </head>
 
 <body>
-    <div class="bg-gray-100 min-h-28 font-sans">
-
-        <!-- navigation bar -->
-        <header>
-            <nav>
-                <x-navbar :brand="'Sale Return'" :fYear="'FY:2024'" :closeButton="'X'" />
-            </nav>
-        </header>
-
+    <!-- navigation bar -->
+    <header>
+        <nav>
+            <x-navbar :brand="'Sale Return'" :fYear="'FY:2024'" :closeButton="'X'" />
+        </nav>
+    </header>
+    <div class="main">
         <!-- content -->
         <div class="content">
 
@@ -74,7 +72,7 @@
                 <!-- swapping buttons -->
 
                 <!-- control-buttons -->
-                <x-control-buttons/>
+                <x-control-buttons />
                 <!-- control-buttons ends-->
 
 

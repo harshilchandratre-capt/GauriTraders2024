@@ -33,8 +33,8 @@
     </header>
 
     <!-- Main Content Area -->
-    <div class="main ">
-        <div class="ms-container my-10 flex justify-start items-center flex-wrap gap-10">
+    <div class="main">
+        <div class="ms-container flex justify-start items-center flex-wrap gap-10">
 
             <x-main-screen-card :title="'POS'" />
             <x-main-screen-card :title="'POS Transaction Inquiry'" />
@@ -57,7 +57,7 @@
     </div>
 
     <!-- Footer / Credit -->
-    <footer class="flex items-end justify-end p-0 mx-10 my-5 fixed top-0 left-0 right-0 bottom-0" >
+    <footer class="flex items-end justify-end p-0 mx-10 my-6">
         <!-- <x-footer /> -->
         <div class="text-right text-gray-500 text-xs font-josefin-sans font-semibold leading-4 break-words">Created By:&nbsp;</div>
         <div class="text-right text-gray-400 text-xs font-josefin-sans font-semibold leading-4 break-words">CAPT Technology</div>

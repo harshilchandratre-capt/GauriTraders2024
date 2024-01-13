@@ -6,13 +6,15 @@
     /* height: 53px; */
     height: 8.883vh;
   
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
   
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     gap: 2.7778vw;
+
+    margin: 3rem 0 0 0;
   }
   
   .amount-left {

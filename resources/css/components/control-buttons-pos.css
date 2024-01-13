@@ -2,25 +2,47 @@
   /* border: 2px solid black; */
   width: 100%;
   height: max-content;
-  /* margin: 0 0 30px 0; */
+  margin: 0;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
   /* gap: 30px; */
-  gap: 2.5vw;
-  /* margin-bottom: 2vh; */
+  gap: 2.5rem;
+  margin: 0 0 3rem 0;
 }
 
-.help-left {
-  /* font-size: 2vw; */
+.help-left{
+  width: max-content;
+  /* border: 2px solid crimson; */
 }
 
 .Group198 {
-  width: 331px;
+  width: max-content;
   height: 31px;
-  position: relative;
-  }
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+
+
+
+}
+
+.help-group1,
+.help-group2,
+.help-group3 {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 5px;
+
+  /* border: 2px solid lightseagreen; */
+
+}
 
 .F5FindItem,
 .F1SellItemDetails,
@@ -28,47 +50,30 @@
 .F3CustomerInfo,
 .F9QtyChangeRate,
 .CtrlF1Help {
-  position: absolute;
   color: black;
   font-size: 10px;
   font-family: Josefin Sans;
   font-weight: 700;
-  word-wrap: break-word;
+  scale: 1;
+  transition: all ease .15s;
+
 }
 
-.F5FindItem {
-  left: 113px;
-  top: 16px;
-}
+.F5FindItem:hover,
+.F1SellItemDetails:hover,
+.F9PaymentDetails:hover,
+.F3CustomerInfo:hover,
+.F9QtyChangeRate:hover,
+.CtrlF1Help:hover {
+  color: black;
+  font-size: 10px;
+  font-family: Josefin Sans;
+  font-weight: 700;
+  cursor: pointer;
+  scale: 1.2;
+  transition: all ease .15s;
 
-.F1SellItemDetails {
-  left: 113px;
-  top: 0px;
 }
-
-.F9PaymentDetails {
-  left: 0px;
-  top: 16px;
-  
-}
-
-.F3CustomerInfo {
-  left: 229px;
-  top: 0px;
-  
-}
-
-.F9QtyChangeRate {
-  left: 229px;
-  top: 21px;
-  
-}
-
-.CtrlF1Help {
-  left: 0px;
-  top: 0px;
-}
-
 
 .buttons-right {
   display: flex;
@@ -82,74 +87,66 @@
 
 .hold-button {
   position: relative;
-  /* width: 147px; */
-  width: 12.25vw;
-  /* height: 50px; */
-  height: 8.333vh;
-  background-color: #ffe500;
-
+  width: 147px;
+  height: 50px;
+  background-color: #FFE500;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
   border: none;
-  /* gap: 15px; */
-  gap: 1.25vw;
-
-  /* font-size: 14.73px; */
-  font-size: 1.227vw;
+  gap: 15px;
+  font-size: 14.73px;
   color: white;
 
   cursor: pointer;
 
-  box-shadow: 5px 5px 20px 0px #00000040 inset;
-  transition: background-color 0.3s ease;
 }
 
 .save-button {
-  /* width: 147px;
-    height: 50px; */
-  width: 12.25vw;
-  height: 8.333vh;
-  background-color: #03b9d1;
+  width: 147px;
+  height: 50px;
+  background-color: #03B9D1;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
   border: none;
-  /* gap: 15px; */
-  gap: 1.25vw;
+  gap: 15px;
 
-  /* font-size: 14.73px; */
-  font-size: 1.227vw;
+  font-size: 14.73px;
   color: white;
 
   cursor: pointer;
 
-  box-shadow: 5px 5px 20px 0px #00000040 inset;
-  transition: background-color 0.3s ease;
 }
 
 .cancel-button {
-  /* width: 147px;
-  height: 50px; */
-  width: 12.25vw;
-  height: 8.333vh;
-  background-color: #ff0000;
+
+  width: 147px;
+  height: 50px;
+  background-color: #FF0000;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
   border: none;
-  /* gap: 15px; */
-  gap: 1.25vw;
+  gap: 15px;
 
-
-  /* font-size: 14.73px; */
-  font-size: 1.227vw;
+  font-size: 14.73px;
   color: white;
 
   cursor: pointer;
+
+
+
+
+}
+
+.hold-button:hover,
+.save-button:hover,
+.cancel-button:hover {
+  transition: all ease .15s;
 
   box-shadow: 5px 5px 20px 0px #00000040 inset;
   transition: background-color 0.3s ease;
@@ -163,8 +160,6 @@
   background-color: #e74c3c;
   color: #fff;
   border-radius: 50%;
-  /* padding: 5px 10px; */
-  padding: .833vh .833vw;
-  /* font-size: 12px; */
-  font-size: 1vw;
+  padding: 5px 10px;
+  font-size: 12px;
 }

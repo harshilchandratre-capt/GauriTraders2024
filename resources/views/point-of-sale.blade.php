@@ -3,70 +3,69 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gauri Traders POS</title>
-
-
-
-    <!-- ✨ component css here 👇 -->
-    @vite('resources/css/components/main-navbar.css')
-    <!-- @vite('resources/css/components/main-screen-card.css') -->
-    <!-- @vite('resources/css/components/brand-watermark.css') -->
-    <!-- @vite('resources/css/components/hold-button.css') -->
-    @vite('resources/css/components/footer.css')
-    @vite('resources/css/components/user-detail-panel-pos.css')
-    @vite('resources/css/components/sell-customer-payment-pos.css')
-    @vite('resources/css/components/item-table-pos.css')
-    @vite('resources/css/components/amount-pos.css')
-    @vite('resources/css/components/control-buttons-pos.css')
-    @vite('resources/css/components/payment-details-pos.css')
+  <title>Gauri Traders POS</title>
 
 
-    <!--✨ global css here 👇  -->
-    @vite('resources/css/app.css')
+
+  <!-- ✨ component css here 👇 -->
+  @vite('resources/css/components/main-navbar.css')
+  <!-- @vite('resources/css/components/main-screen-card.css') -->
+  <!-- @vite('resources/css/components/brand-watermark.css') -->
+  <!-- @vite('resources/css/components/hold-button.css') -->
+  @vite('resources/css/components/footer.css')
+  @vite('resources/css/components/user-detail-panel-pos.css')
+  @vite('resources/css/components/sell-customer-payment-pos.css')
+  @vite('resources/css/components/item-table-pos.css')
+  @vite('resources/css/components/amount-pos.css')
+  @vite('resources/css/components/control-buttons-pos.css')
+  @vite('resources/css/components/payment-details-pos.css')
+
+
+  <!--✨ global css here 👇  -->
+  @vite('resources/css/app.css')
 
 </head>
 
 <body class="bg-gray-100 h-screen font-sans ">
 
-    <!-- Navigation Bar -->
-    <header>
-        <nav>
-            <x-main-navbar :brand="'Logo Here'" :fYear="'FY:2024'" :closeButton="'Exit'" />
-        </nav>
-    </header>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <x-main-navbar :brand="'Logo Here'" :fYear="'FY:2024'" :closeButton="'Exit'" />
+    </nav>
+  </header>
 
-    <!-- Main Content Area -->
-    <div class="main" style="display: flex; align-items: center; justify-content: space-between; flex-direction: column;">
-        <!-- User Detail Panel Area -->
-        <x-user-detail-panel-pos />
+  <!-- Main Content Area -->
+  <div class="main">
+    <div class="content">
+      <!-- User Detail Panel Area -->
+      <x-user-detail-panel-pos />
 
-        <!-- Sell Customer Payment -->
-        <x-sell-customer-payment-pos />
+      <!-- Sell Customer Payment -->
+      <x-sell-customer-payment-pos />
 
-        <!-- Amount Indicator -->
-        <x-amount-pos />
+      <!-- Amount Indicator -->
+      <x-amount-pos />
 
-        <!-- Control Button Area -->
-        <x-control-buttons-pos />
-        
-
-
+      <!-- Control Button Area -->
+      <x-control-buttons-pos />
     </div>
+  </div>
 
-    <!-- Footer / Credit -->
-    <x-footer />
-
-
-
+  <!-- Footer / Credit -->
+  <x-footer />
 
 
 
 
-    <!-- Include your JavaScript files or scripts here -->
-    <script>
+
+
+
+  <!-- Include your JavaScript files or scripts here -->
+  <script>
     function openTab(tabId) {
       // Hide all tab contents
       var tabContents = document.getElementsByClassName('tab-content');
@@ -83,6 +82,21 @@
       // Show the selected tab content and mark it as active
       document.getElementById(tabId).style.display = 'block';
       document.querySelector('[onclick="openTab(\'' + tabId + '\')"]').classList.add('active-tab');
+    }
+
+    function openModal(type) {
+      document.getElementById(type + 'Modal').style.display = 'block';
+      document.querySelector('.overlay').style.display = 'block';
+    }
+
+    function closeModal(type) {
+      document.getElementById(type + 'Modal').style.display = 'none';
+      document.querySelector('.overlay').style.display = 'none';
+    }
+
+    function closeAllModals() {
+      document.querySelectorAll('.modal').forEach(modal => modal.style.display = 'none');
+      document.querySelector('.overlay').style.display = 'none';
     }
   </script>
 </body>

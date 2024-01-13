@@ -41,12 +41,13 @@
 }
 
 .t-head {
-    margin: 4px;
+    /* margin: 4px; */
+    margin: .333vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* border: 2px solid crimson; */
-    padding: 0 10px 0 0;
+    /* padding: 0 10px 0 0; */
     padding: 0 .833vw 0 0;
 
 }
@@ -76,7 +77,7 @@
 }
 
 .t-item {
-    margin: 4px;
+    /* margin: 4px; */
     margin: .333vw;
     display: flex;
     align-items: center;

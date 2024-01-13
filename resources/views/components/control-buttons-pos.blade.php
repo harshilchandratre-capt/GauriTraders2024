@@ -1,14 +1,20 @@
 <div class="control-buttons">
-<div class="help-left">
-    <div class="Group198">
-        <div class="F5FindItem">F5: Find Item</div>
-        <div class="F1SellItemDetails">F1: Sell item Details</div>
-        <div class="F9PaymentDetails">F9: Payment Details</div>
-        <div class="F3CustomerInfo">F3: Customer Info</div>
-        <div class="F9QtyChangeRate">F9: Qty Change/Rate</div>
-        <div class="CtrlF1Help">Ctrl + F1: Help</div>
+    <div class="help-left">
+        <div class="Group198">
+            <div class="help-group1">
+                <div class="CtrlF1Help">Ctrl + F1: Help</div>
+                <div class="F9PaymentDetails">F9: Payment Details</div>
+            </div>
+            <div class="help-group2">
+                <div class="F1SellItemDetails">F1: Sell item Details</div>
+                <div class="F5FindItem">F5: Find Item</div>
+            </div>
+            <div class="help-group3">
+                <div class="F3CustomerInfo">F3: Customer Info</div>
+                <div class="F9QtyChangeRate">F9: Qty Change/Rate</div>
+            </div>
+        </div>
     </div>
-</div>
 
 
     <div class="buttons-right">
