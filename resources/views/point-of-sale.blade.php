@@ -56,7 +56,7 @@
   </div>
 
   <!-- Footer / Credit -->
-  <x-footer />
+  <!-- <x-footer /> -->
 
 
 
