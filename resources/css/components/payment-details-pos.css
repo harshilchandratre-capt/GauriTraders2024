@@ -113,6 +113,11 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   z-index: 1;
+  width: max-content;
+  height: max-content;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .overlay {
@@ -130,6 +135,547 @@
   display: flex;
   flex-direction: column;
 }
+
+/* cash */
+
+.popup {
+  width: 1027px;
+  /* width: max-content; */
+  height: max-content;
+  /* width: max-content; */
+  background-color: #F2F2F2;
+  padding: 10px;
+  margin: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.popup .header {
+  padding: 0;
+  margin: 5px 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.popup-title {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+
+
+  /* border: 2px solid crimson; */
+
+}
+
+.popup-title .header svg,
+h2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.popup-title h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.cancel-icon {
+  cursor: pointer;
+}
+
+.separator {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid #000000
+}
+
+.popup .container {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: start;
+  /* border: 2px solid black; */
+  gap: 40px;
+}
+
+.container .content {
+  padding: 0;
+  margin: 30px auto 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  height: max-content;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.content .input-field {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  /* text-align: center; */
+  /* border: 2px dotted green; */
+}
+
+.content .input-field label {
+  color: #000;
+  text-align: right;
+  font-size: 23.762px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.content .input-field input {
+  width: 310.095px;
+  padding: 8px;
+  border-radius: 8.25px;
+  /* flex-direction: column; */
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: right;
+
+  outline: none;
+  border: none;
+}
+
+.content .buttons {
+  width: 100%;
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  /* border: 2px solid navy; */
+}
+
+.content .buttons button {
+  width: 106px;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.save-btn {
+  background-color: #00d1ff;
+  color: #fff;
+}
+
+.cancel-btn {
+  background-color: #f00;
+  color: #fff;
+}
+
+/* cash */
+
+/* card */
+
+.popup-card {
+  width: 1027px;
+  height: max-content;
+  /* width: max-content; */
+  background-color: #F2F2F2;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.popup-card .header {
+  padding: 0;
+  margin: 5px 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.popup-card .popup-title {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+
+
+  /* border: 2px solid crimson; */
+
+}
+
+.popup-title .header svg,
+h2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.popup-title h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.cancel-icon {
+  cursor: pointer;
+}
+
+.separator {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid #000000
+}
+
+.popup-card .container {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* border: 2px solid black; */
+  gap: 40px;
+}
+
+.popup-card .container .content {
+  padding: 0;
+  margin: 0 auto;
+  margin: 30px auto 0 auto;
+  box-sizing: border-box;
+  width: max-content;
+  height: max-content;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.content .input-field {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 80px; */
+  /* text-align: center; */
+  /* border: 2px dotted crimson; */
+}
+
+.input-field label {
+  color: #000;
+  text-align: right;
+  font-size: 23.762px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input-field input {
+  width: 310.095px;
+  padding: 8px;
+  border-radius: 8.25px;
+  /* flex-direction: column; */
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: right;
+
+  outline: none;
+  border: none;
+}
+
+.buttons {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  /* border: 2px solid navy; */
+}
+
+.buttons button {
+  width: 106px;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.save-btn {
+  background-color: #00d1ff;
+  color: #fff;
+}
+
+.cancel-btn {
+  background-color: #f00;
+  color: #fff;
+}
+
+/* card */
+
+/* cheque */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+/* CSS styles */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow-x: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.main {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid crimson; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-cheque {
+  width: 1027px;
+  width: max-content;
+  height: max-content;
+  /* width: max-content; */
+  background-color: #F2F2F2;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.popup-cheque .header {
+  padding: 0;
+  margin: 5px 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.header .popup-title {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+
+
+  /* border: 2px solid crimson; */
+
+}
+
+.popup-cheque .header svg,
+h2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.popup-title h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.cancel-icon {
+  cursor: pointer;
+}
+
+.separator {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid #000000
+}
+
+.popup-cheque .container {
+  padding: 0;
+  margin: 30px auto 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  /* border: 2px solid black; */
+  /* gap: 40px; */
+}
+
+.popup-cheque .content {
+  padding: 0;
+  /* margin: 30px auto 0 auto; */
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+
+}
+
+.popup-cheque .bank,
+.cheque {
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-cheque .content .input-field {
+
+  width: 463.87px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  /* text-align: center; */
+  /* border: 2px dotted green; */
+}
+
+.popup-cheque .content .input-field label {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+
+}
+
+.popup-cheque .content .input-field input {
+  width: 256.36px;
+  padding: 8px;
+  border-radius: 8.25px;
+  /* flex-direction: column; */
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: right;
+
+  outline: none;
+  border: none;
+}
+
+.buttons {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  /* border: 2px solid navy; */
+}
+
+.buttons button {
+  width: 106px;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.save-btn {
+  background-color: #00d1ff;
+  color: #fff;
+}
+
+.cancel-btn {
+  background-color: #f00;
+  color: #fff;
+}
+
+/* cheque */
 
 .close-btn {
   cursor: pointer;
