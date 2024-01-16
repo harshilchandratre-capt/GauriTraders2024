@@ -24,7 +24,7 @@ use App\Http\Controllers\PointOfSaleController;
 
 
 
-Route::get('/', [HomeController::class, 'home'])->name('home');
+Route::get('/', [HomeController::class, 'home'])->name('root');
 Route::get('/sale-return', [SaleReturnController::class, 'saleReturn'])->name('sale-return');
 Route::get('/point-of-sale', [PointOfSaleController::class, 'pointofSale'])->name('point-of-sale');
 

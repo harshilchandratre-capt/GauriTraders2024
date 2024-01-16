@@ -7,5 +7,6 @@
 }
 
 .main-screen-card:hover{
+    cursor: pointer;
     box-shadow: 5px 5px 20px 0px #00000040 inset;
 }

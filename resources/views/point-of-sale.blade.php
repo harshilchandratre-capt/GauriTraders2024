@@ -11,7 +11,7 @@
 
 
   <!-- ✨ component css here 👇 -->
-  @vite('resources/css/components/main-navbar.css')
+  @vite('resources/css/components/navbar.css')
   <!-- @vite('resources/css/components/main-screen-card.css') -->
   <!-- @vite('resources/css/components/brand-watermark.css') -->
   <!-- @vite('resources/css/components/hold-button.css') -->
@@ -34,7 +34,9 @@
   <!-- Navigation Bar -->
   <header>
     <nav>
-      <x-main-navbar :brand="'Logo Here'" :fYear="'FY:2024'" :closeButton="'Exit'" />
+      <a href="{{ route('root') }}">
+        <x-navbar :brand="'Point Of Sale'" :fYear="'FY:2024'" :closeButton="'X'" />
+      </a>
     </nav>
   </header>
 
@@ -52,11 +54,15 @@
 
       <!-- Control Button Area -->
       <x-control-buttons-pos />
+
     </div>
+
   </div>
 
   <!-- Footer / Credit -->
-  <!-- <x-footer /> -->
+  <footer>
+    <x-footer />
+  </footer>
 
 
 

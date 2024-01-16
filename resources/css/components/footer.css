@@ -1,26 +1,15 @@
 .credit-line {
     width: 100%;
-    /* height: 35px; */
     height: 1.823vw;
     color: white;
     background-color: #ABD435;
-    /* padding: 10px 30px; */
-    /* padding: .521vw 1.563vw; */
     padding: 1vw 1vw;
-    margin: 0 0 1vh 0;
-
-    font-size: 1vw;
-
-    /* border: 2px solid red; */
-
+    font-size: 1vw; 
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    position: static;
-    bottom: 0;
-    left: 0;
 }
+
 
 
 .credit-line span a{
