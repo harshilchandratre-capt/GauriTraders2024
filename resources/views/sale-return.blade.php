@@ -73,6 +73,8 @@
                 <x-swapping-buttons />
                 <!-- swapping buttons -->
 
+                <!-- <x-separator /> -->
+
                 <!-- control-buttons -->
                 <x-control-buttons />
                 <!-- control-buttons ends-->

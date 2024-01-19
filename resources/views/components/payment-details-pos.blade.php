@@ -135,10 +135,35 @@
             </div>
 
             <div id="upiModal" class="modal">
-                <div class="form-container">
-                    <span class="close-btn" onclick="closeModal('upi')">&times;</span>
-                    <h2>UPI Payment Form</h2>
-                    <!-- Your UPI payment form fields go here -->
+                <div class="popup-upi">
+                    <div class="popup-title">
+                        <div class="header">
+                            <h2>UPI Method</h2>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 14.8594L7.92971 7.92972M7.92971 7.92972L14.8594 1M7.92971 7.92972L1 1M7.92971 7.92972L14.8594 14.8594" stroke="black" stroke-width="1.9827" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                        </div>
+                        <div class="separator"></div>
+
+
+                    </div>
+                    <div class="container">
+                        <div class="content">
+                            <div class="input-field">
+                                <label for="transaction-id">Transaction ID:</label>
+                                <input type="text" id="transaction-id" placeholder="57987298529" readonly />
+                            </div>
+                            <div class="input-field">
+                                <label for="upi-amount">UPI Amount:</label>
+                                <input type="number" id="upi-amount" placeholder="215" readonly />
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button class="save-btn">Save</button>
+                            <button class="cancel-btn">Cancel</button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -186,9 +211,106 @@
 
         </div>
     </div>
+
     <div class="payment-bottom">
-        <div class="table">
-            <p> Table content here</p>
+        <div class="payment-table">
+            <div class="payment-method-table">
+                <div class="t-head">
+                    <div class="head-left">
+                        <span>Sr. No.</span>
+                        <span>Payment Method</span>
+                    </div>
+                    <div class="head-right">
+                        <span>Transaction Id</span>
+                    </div>
+                </div>
+                <hr style="width: 99%; margin: auto;" />
+                <div class="t-item">
+                    <div class="item-left">
+                        <span>Sr. No.</span>
+                        <span>Payment Method</span>
+                    </div>
+                    <div class="item-right">
+                        <span>Transaction Id</span>
+                    </div>
+                </div>
+                <div class="t-item">
+                    <div class="item-left">
+                        <span>Sr. No.</span>
+                        <span>Payment Method</span>
+                    </div>
+                    <div class="item-right">
+                        <span>Transaction Id</span>
+                    </div>
+                </div>
+                <div class="t-item">
+                    <div class="item-left">
+                        <span>Sr. No.</span>
+                        <span>Payment Method</span>
+                    </div>
+                    <div class="item-right">
+                        <span>Transaction Id</span>
+                    </div>
+                </div>
+                <div class="t-item">
+                    <div class="item-left">
+                        <span>Sr. No.</span>
+                        <span>Payment Method</span>
+                    </div>
+                    <div class="item-right">
+                        <span>Transaction Id</span>
+                    </div>
+                </div>
+                <div class="t-item">
+                    <div class="item-left">
+                        <span>Sr. No.</span>
+                        <span>Payment Method</span>
+                    </div>
+                    <div class="item-right">
+                        <span>Transaction Id</span>
+                    </div>
+                </div>
+                <div class="t-item">
+                    <div class="item-left">
+                        <span>Sr. No.</span>
+                        <span>Payment Method</span>
+                    </div>
+                    <div class="item-right">
+                        <span>Transaction Id</span>
+                    </div>
+                </div>
+                <div class="t-item">
+                    <div class="item-left">
+                        <span>Sr. No.</span>
+                        <span>Payment Method</span>
+                    </div>
+                    <div class="item-right">
+                        <span>Transaction Id</span>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 100%; border-left: 1px solid grey;"></div>
+            <div class="cheque-table">
+                <div class="t-head">
+                    <div class="head-left">
+                        <span>Sr. No.</span>
+                        <span>Payment Method</span>
+                    </div>
+                    <div class="head-right">
+                        <span>Transaction Id</span>
+                    </div>
+                </div>
+                <hr style="width: 99%; margin: auto;" />
+                <div class="t-item">
+                    <div class="item-left">
+                        <span>Sr. No.</span>
+                        <span>Payment Method</span>
+                    </div>
+                    <div class="item-right">
+                        <span>Transaction Id</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

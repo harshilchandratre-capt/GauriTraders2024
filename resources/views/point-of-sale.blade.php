@@ -52,6 +52,8 @@
       <!-- Amount Indicator -->
       <x-amount-pos />
 
+      <x-separator />
+
       <!-- Control Button Area -->
       <x-control-buttons-pos />
 
@@ -71,40 +73,8 @@
 
 
   <!-- Include your JavaScript files or scripts here -->
-  <script>
-    function openTab(tabId) {
-      // Hide all tab contents
-      var tabContents = document.getElementsByClassName('tab-content');
-      for (var i = 0; i < tabContents.length; i++) {
-        tabContents[i].style.display = 'none';
-      }
-
-      // Remove 'active-tab' class from all tabs
-      var tabs = document.getElementsByClassName('tab');
-      for (var i = 0; i < tabs.length; i++) {
-        tabs[i].classList.remove('active-tab');
-      }
-
-      // Show the selected tab content and mark it as active
-      document.getElementById(tabId).style.display = 'block';
-      document.querySelector('[onclick="openTab(\'' + tabId + '\')"]').classList.add('active-tab');
-    }
-
-    function openModal(type) {
-      document.getElementById(type + 'Modal').style.display = 'block';
-      document.querySelector('.overlay').style.display = 'block';
-    }
-
-    function closeModal(type) {
-      document.getElementById(type + 'Modal').style.display = 'none';
-      document.querySelector('.overlay').style.display = 'none';
-    }
-
-    function closeAllModals() {
-      document.querySelectorAll('.modal').forEach(modal => modal.style.display = 'none');
-      document.querySelector('.overlay').style.display = 'none';
-    }
-  </script>
+  <script src="/sell-customer-payment-tab.js"></script>
+  <script src="/payment-modal.js"></script>
 </body>
 
 </html>
