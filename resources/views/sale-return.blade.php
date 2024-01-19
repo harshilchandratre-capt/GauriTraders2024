@@ -23,9 +23,7 @@
     <!-- navigation bar -->
     <header>
         <nav>
-            <a href="{{ route('root') }}">
-                <x-navbar :brand="'Sale Return'" :fYear="'FY:2024'" :closeButton="'X'" />
-            </a>
+            <x-navbar :brand="'Sale Return'" :fYear="'FY:2024'" :closeButton="'X'" />
         </nav>
     </header>
     <div class="main">

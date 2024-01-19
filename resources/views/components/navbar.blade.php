@@ -4,8 +4,11 @@
     </div>
     <div class="nav-right">
         <label for="fyear">{{ $fYear }}</label>
-        <div class="close-button">{{ $closeButton }}</div>
+        <div class="close-button">
+            <a href="{{ route('root') }}">
+                {{ $closeButton }}
+            </a>
+        </div>
 
     </div>
 </div>
-

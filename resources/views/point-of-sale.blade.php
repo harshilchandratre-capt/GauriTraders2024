@@ -16,12 +16,12 @@
   <!-- @vite('resources/css/components/brand-watermark.css') -->
   <!-- @vite('resources/css/components/hold-button.css') -->
   @vite('resources/css/components/footer.css')
-  @vite('resources/css/components/user-detail-panel-pos.css')
-  @vite('resources/css/components/sell-customer-payment-pos.css')
-  @vite('resources/css/components/item-table-pos.css')
-  @vite('resources/css/components/amount-pos.css')
-  @vite('resources/css/components/control-buttons-pos.css')
-  @vite('resources/css/components/payment-details-pos.css')
+  @vite('resources/css/components/point-of-sale/user-detail-panel-pos.css')
+  @vite('resources/css/components/point-of-sale/sell-customer-payment-pos.css')
+  @vite('resources/css/components/point-of-sale/item-table-pos.css')
+  @vite('resources/css/components/point-of-sale/amount-pos.css')
+  @vite('resources/css/components/point-of-sale/control-buttons-pos.css')
+  @vite('resources/css/components/point-of-sale/payment-details-pos.css')
 
 
   <!--✨ global css here 👇  -->
@@ -34,9 +34,7 @@
   <!-- Navigation Bar -->
   <header>
     <nav>
-      <a href="{{ route('root') }}">
         <x-navbar :brand="'Point Of Sale'" :fYear="'FY:2024'" :closeButton="'X'" />
-      </a>
     </nav>
   </header>
 

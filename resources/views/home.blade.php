@@ -11,8 +11,8 @@
 
 
     <!-- ✨ component css here 👇 -->
-    @vite('resources/css/components/main-navbar.css')
-    @vite('resources/css/components/main-screen-card.css')
+    @vite('resources/css/components/main-screen/main-navbar.css')
+    @vite('resources/css/components/main-screen/main-screen-card.css')
     @vite('resources/css/components/brand-watermark.css')
     @vite('resources/css/components/hold-button.css')
     @vite('resources/css/components/footer.css')
