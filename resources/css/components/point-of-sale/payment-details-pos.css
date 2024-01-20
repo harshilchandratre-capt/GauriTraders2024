@@ -73,6 +73,10 @@
   font-weight: 700;
 }
 
+/* .cash-method{
+  background-color: white;
+} */
+
 .cash-method,
 .card-method,
 .cheque-method,
@@ -85,6 +89,7 @@
   align-items: center;
   justify-content: start;
   gap: .833vw;
+  border-radius: 5px;
 
 }
 
@@ -93,6 +98,7 @@
 .cheque-method:hover,
 .upi-method:hover {
   cursor: pointer;
+  background-color: white;
   border-radius: 5px;
   border: 0.2px solid #000000
 }

@@ -3,7 +3,7 @@
         <fieldset class="payment-method-group">
             <legend>Payment Method</legend>
             <div class="methods">
-                <div class="cash-method active" onclick="openModal('cash')"><span>Ctrl + F1 - </span><b>Cash</b></div>
+                <div class="cash-method" onclick="openModal('cash')"><span>Ctrl + F1 - </span><b>Cash</b></div>
                 <div class="card-method" onclick="openModal('card')"><span>Ctrl + F2 - </span><b>Credit/Debit Card</b></div>
                 <div class="cheque-method" onclick="openModal('cheque')"><span>Ctrl + F3 - </span><b>Cheque</b></div>
                 <div class="upi-method" onclick="openModal('upi')"><span>Ctrl + U - </span><b>UPI</b></div>
@@ -139,9 +139,9 @@
                     <div class="popup-title">
                         <div class="header">
                             <h2>UPI Method</h2>
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 14.8594L7.92971 7.92972M7.92971 7.92972L14.8594 1M7.92971 7.92972L1 1M7.92971 7.92972L14.8594 14.8594" stroke="black" stroke-width="1.9827" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+                            <span class="close-btn" onclick="closeModal('upi')"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 14.8594L7.92971 7.92972M7.92971 7.92972L14.8594 1M7.92971 7.92972L1 1M7.92971 7.92972L14.8594 14.8594" stroke="black" stroke-width="1.9827" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg></span>
 
                         </div>
                         <div class="separator"></div>
